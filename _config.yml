@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yixiao Ma's Homepage"
 title_separator          : "-"
 name                     : &name "Yixiao Ma"
-description              : &description "Algorithm Engineer at Pangu Search Group, Huawei & Master of CS at Tsinghua University"
+description              : &description "CS at Tsinghua University"
 url                      : https://myx666.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "myx666/myx666.github.io"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/myx666"
+  github           : "myx666"
   google_plus      :
   keybase          :
   instagram        :
