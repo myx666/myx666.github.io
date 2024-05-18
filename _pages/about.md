@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,57 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi there! My name is Yixiao Ma, an LLM&IR enthusiast from Beijing, China. I received my banchelor and master degree of Computer Science and Technology from Tsinghua University. My supervisor is Prof. [Yiqun Liu](http://www.thuir.cn/group/~YQLiu/). Currently I'm working as an LLM algorithm expert at Huawei. 
 
-A data-driven personal website
+Education Background
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- *08.2020-06.2023* Master, Department of Computer Science and Technology, Tsinghua University
+- *03.2019-09.2019* Research Intern, Department of Computer Science, Carnegie Mellon University
+- *08.2016-06.2020* Banchelor, Department of Computer Science and Technology, Tsinghua University
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Working Experience
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- *06.2023-Now* Algorithm engineer (Top Mind), Pangu Large Language Model team, Huawei
+  - Owner of Legal LLM training project. 
+  - General LLM SFT for RAG and ToB projects.
+  - High-quality SFT data construction.
+  - Information retrieval algorithm research.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Publications
+======
+- ***Yixiao Ma***, Yueyue Wu, Weihang Su, Qingyao Ai, and Yiqun Liu. *CaseEncoder: A Knowledge-enhanced Pre-trained Model for Legal Case Encoding* (**EMNLP'23**).
+- ***Yixiao Ma***, Qingyao Ai, Yueyue Wu, Yunqiu Shao, Yiqun Liu, Min Zhang, and Shaoping Ma. *Incorporating Retrieval Information into the Truncation of Ranking Lists for Better Legal Search* (**SIGIR'22**).
+- ***Yixiao Ma***, Yunqiu Shao, Yueyue Wu, Yiqun Liu, Ruizhe Zhang, Min Zhang, and Shaoping Ma. *LeCaRD: A Legal Case Retrieval Dataset for Chinese Law System* (**SIGIR'21**).
+-  ***Yixiao Ma***, Yueyue Wu, Qingyao Ai, Yiqun Liu, Yunqiu Shao, Min Zhang, and Shaoping Ma. *Incorporating Structural Information into Legal Case Retrieval* (**TOIS**).
+-  ***Yixiao Ma***, Yunqiu Shao, Yiqun Liu, Min Zhang, and Shaoping Ma. *Retrieving Legal Cases from a Large-scale Candidate Corpus* (**ICAIL'21**).
+-  Yufeng Yang*, ***Yixiao Ma****, Zhengyu Wang, and Min Xu. *AttNet: Attention-based Deep Neural Network for 3D Point Set Analysis* (**Sensors, co-first author**).
+-  Haitao Li, Yunqiu Shao, Yueyue Wu, Qingyao Ai, ***Yixiao Ma***, and Yiqun Liu. *LeCaRDv2: A Large-Scale Chinese Legal Case Retrieval Dataset* (**SIGIR'24**).
+-  Wenmeng Yu, Fanyang Meng, Yilin Zhu, ***Yixiao Ma*** et al. *Improving Multimodal Sentiment Analysis with Independent Unimodal Annotations* (**ACL'20**).
+-  Yunqiu Shao, Haitao Li, Yueyue Wu, Qingyao Ai, Jiaxin Mao, ***Yixiao Ma***, and Yiqun Liu. *An intent taxonomy of legal case retrieval* (**TOIS**).
+-  Ruizhe Zhang, Qingyao Ai, Yueyue Wu, ***Yixiao Ma***, and Yiqun Liu. *Result Diversification for Legal Case Retrieval* (**SIGIR-AP'23**).
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Projects
+======
+- 1st place in CAIL2023 conversational legal case retrieval track (2023).
+- 1st place in CAIL2023 legal case retrieval track (2023).
+- 1st place in COLIEE2021 legal case search track (2021).
+- Patent: Chong Chen and ***Yixiao Ma***. *A Generalized Semantic Embedding Training Method for Information Retrieval*.
+- Patent: ***Yixiao Ma***, Chong Chen, and Chao Feng. *A Generalized Large Language Model Training Algorithm for Retrieval-Augmented Generation*.
+- Reviewer of ACL, EMNLP, and TOIS conference
 
-**Markdown generator**
+Honors & Awards
+======
+- Awards of Beijing Outstanding Graduate & Tsinghua University Computer Science Department Outstanding Graduate (2023).
+- 84 Innovative Future Scholarship (2023).
+- Hye-yeon Excellence Scholarship (2022).
+- Longhu Scholarship (2022).
+- Tsinghua University Outstanding Graduation Design (2020).
+- Tsinghua University Scholarship (2019).
+- Tsinghua University Practice Detachment School Level Grand Prize
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Others
+======
+- Has received CS offers from Cornell, Georgia Tech, Columbia, etc.
+- Has received full-time job offers from Huawei (Top Mind), Kwai (Kwai Star), ByteDance, Baichuan, Alibaba, etc.
+- Computer Science Student Union (2017).
+- National Level II Athlete (Go)
