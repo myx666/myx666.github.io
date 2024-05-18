@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yixiao Ma's Homepage"
+title                    : "Yunqiu Shao"
 title_separator          : "-"
-name                     : &name "Yixiao Ma"
-description              : &description "Algorithm Engineer at Pangu Search Group, Huawei & Master of CS at Tsinghua University"
-url                      : https://myx666.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yunqiu Shao"
+description              : &description "PhD candidate at Tsinghua University"
+url                      : https://ThuYShao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "myx666/myx666.github.io"
+repository               : "ThuYShao.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yixiao Ma"
-  avatar           : "profile.png"
-  bio              : "LLM Algorithm Engineer at Pangu, Huawei & Master of CS at Tsinghua University"
+  name             : "Yunqiu Shao"
+  avatar           : "shao.jpeg"
+  bio              : "Ph.D. candidate At Tsinghua University"
   location         : "Beijing, China"
-  employer         : "Huawei"
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=9MyNU4kAAAAJ&hl=zh-CN&authuser=1"
-  email            : "ma-yx16@tsinghua.org.cn"
+  employer         :
+  googlescholar    : "https://scholar.google.com/citations?user=ElHk_6IAAAAJ&hl=en"
+  email            : "shaoyunqiu14@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +95,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/myx666"
+  github           : "https://github.com/ThuYShao"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-2107-7408"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -129,23 +127,22 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
   - gulpfile.js
+  - LICENSE
   - log
   - node_modules
   - package.json
+  - Rakefile
+  - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -309,3 +306,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+Footer
