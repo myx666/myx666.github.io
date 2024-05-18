@@ -23,6 +23,12 @@ Working Experience
   - General LLM SFT for RAG and ToB projects.
   - High-quality SFT data construction.
   - Information retrieval algorithm research.
+- (Intern) *07.2022-09.2022* Algorithm engineer, Shopee
+  - Short video search
+- (Intern) *08.2020-09.2020* Algorithm engineer, Bytedance
+  - User growth
+- (Intern) *05.2020-07.2020* Algorithm engineer , WeChat, Tencent
+  - Multimodal sentiment analysis
 
 Publications
 ======
