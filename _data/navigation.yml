@@ -1,19 +1,19 @@
 # main links links
 main:
   - title: "Education Background"
-    url: /#Education Background
+    url: /#education-background
 
   - title: "Working Experience"
-    url: /#Working Experience  
+    url: /#working-experience  
 
   - title: "Publications"
-    url: /#Publications 
+    url: /#publications 
     
   - title: "Projects"
-    url: /#Projects
+    url: /#projects
         
-  - title: "Honors & Awards"
-    url: /#Honors & Awards
+  - title: "Honors and Awards"
+    url: /#honors-and-awards
     
   - title: "Others"
-    url: /#Others
+    url: /#others
