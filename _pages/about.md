@@ -46,7 +46,7 @@ Projects
 - Patent: ***Yixiao Ma***, Chong Chen, and Chao Feng. *A Generalized Large Language Model Training Algorithm for Retrieval-Augmented Generation*.
 - Reviewer of ACL, EMNLP, and TOIS conference
 
-Honors & Awards
+Honors and Awards
 ======
 - Awards of Beijing Outstanding Graduate & Tsinghua University Computer Science Department Outstanding Graduate (2023).
 - 84 Innovative Future Scholarship (2023).
